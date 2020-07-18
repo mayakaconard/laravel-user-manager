@@ -10,7 +10,6 @@ use App\User;
 
 class PermissionController extends Controller
 {
-
     public function Permission()
     {
         $dev_permission = Permission::where('slug', 'create-tasks')->first();
